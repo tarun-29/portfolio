@@ -14,7 +14,7 @@ const ProjectSection = () => {
     },
     {
       name: "Linear Clone",
-      description: "Sep 2021 - Dec 2024",
+      description: "A clone of Linear for issue tracking app",
       logo: "/linear.png",
       stack: "React, Tiptap, Tailwind",
       link: "#",
