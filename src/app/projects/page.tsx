@@ -23,7 +23,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <div className="text-3xl mt-15">Projects</div>
+      <div className="text-3xl mt-20">Projects</div>
       <div className="flex flex-col gap-5 mt-10">
         {projects.map((exp) => (
           <div
