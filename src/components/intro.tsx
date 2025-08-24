@@ -1,16 +1,6 @@
-import { FaGithub, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
+"use client";
 import Image from "next/image";
-
-const socials = [
-  { name: "Github", href: "https://github.com/tarun-29", Icon: FaGithub },
-  { name: "Twitter", href: "https://x.com/onemineng", Icon: FaTwitter },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/kantiwal/",
-    Icon: FaLinkedin,
-  },
-  { name: "Email", href: "mailto:29kantiwaltarun@gmail.com", Icon: FaEnvelope },
-];
+import { Socials } from "./socials";
 
 const experiences = [
   {
@@ -18,35 +8,16 @@ const experiences = [
     role: "SDE - Fullstack",
     period: "Sep 2021 - Dec 2024",
     logo: "/pplbx.png",
+    link: "https://www.peoplebox.ai/",
   },
   {
     company: "Medallia",
     role: "SDE2 - Frontend",
     period: "Jan 2024 - Present",
     logo: "/medallia.png",
+    link: "https://www.medallia.com/",
   },
 ];
-
-const Socials = () => {
-  return (
-    <div className="flex items-center gap-4 mt-5">
-      <span className="opacity-80">Find me on:</span>
-      <span className="flex items-center gap-4">
-        {socials.map(({ name, href, Icon }) => (
-          <a
-            key={name}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 hover:underline"
-          >
-            <Icon className="w-4 h-4" aria-hidden="true" />
-          </a>
-        ))}
-      </span>
-    </div>
-  );
-};
 
 const Experience = () => {
   return (
@@ -54,7 +25,13 @@ const Experience = () => {
       <div className="text-3xl mt-15">Experience</div>
       <div className="flex flex-col gap-5 mt-10">
         {experiences.map((exp) => (
-          <div key={exp.company} className="flex">
+          <div
+            onClick={() => {
+              window.open(exp.link, "_blank");
+            }}
+            key={exp.company}
+            className="flex cursor-pointer"
+          >
             <Image src={exp.logo} alt={exp.company} width={80} height={80} />
             <div className="ml-5">
               <div className="text-xl font-medium">{exp.company}</div>
