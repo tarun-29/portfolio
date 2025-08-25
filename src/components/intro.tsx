@@ -4,18 +4,18 @@ import { Socials } from "./socials";
 
 const experiences = [
   {
-    company: "Peoplebox",
-    role: "SDE - Fullstack",
-    period: "Sep 2021 - Dec 2024",
-    logo: "/pplbx.png",
-    link: "https://www.peoplebox.ai/",
-  },
-  {
     company: "Medallia",
     role: "SDE2 - Frontend",
     period: "Jan 2024 - Present",
     logo: "/medallia.png",
     link: "https://www.medallia.com/",
+  },
+  {
+    company: "Peoplebox",
+    role: "SDE - Fullstack",
+    period: "Sep 2021 - Dec 2024",
+    logo: "/pplbx.png",
+    link: "https://www.peoplebox.ai/",
   },
 ];
 

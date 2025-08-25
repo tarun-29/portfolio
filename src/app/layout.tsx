@@ -2,12 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-// import { Inter } from "next/font/google";
-
-// const inter = Inter({
-//   subsets: ["latin"],
-//   weight: ["400", "700"], // you can choose weights
-// });
 
 export const metadata: Metadata = {
   title: "Tarun Kantiwal | Portfolio",
