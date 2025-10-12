@@ -19,6 +19,14 @@ const ProjectSection = () => {
       stack: "React, Tiptap, Tailwind",
       link: "#",
     },
+    {
+      name: "Buffer Clone",
+      description:
+        "A buffer app clone with working kanban board and event calender",
+      logo: "/buffer.png",
+      stack: "Next.js, Tailwind",
+      link: "https://buffer-clone-tarun-29s-projects.vercel.app/start",
+    },
   ];
 
   return (
