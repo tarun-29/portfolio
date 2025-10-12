@@ -7,17 +7,17 @@ const ProjectSection = () => {
     {
       name: "Leaf",
       description:
-        "A collaborative note editor inspired by notion and sketch pad inspired by excalidraw",
+        "A collaborative sketch pad inspired by excalidraw and collaborative cursor inspired by Miro",
       logo: "/leaf.png",
       stack: "React, Tiptap, Yjs, Tailwind",
-      link: "https://leaf-dashboard.netlify.app/",
+      link: "https://leaf-frontend.netlify.app/",
     },
     {
-      name: "Linear Clone",
-      description: "A clone of Linear for issue tracking app",
-      logo: "/linear.png",
-      stack: "React, Tiptap, Tailwind",
-      link: "#",
+      name: "Notion Clone",
+      description: "A collaborative note editor inspired by notion",
+      logo: "/notion.svg",
+      stack: "React, Tiptap, Yjs, Tailwind",
+      link: "https://leaf-frontend.netlify.app/editor",
     },
     {
       name: "Buffer Clone",
@@ -26,6 +26,13 @@ const ProjectSection = () => {
       logo: "/buffer.png",
       stack: "Next.js, Tailwind",
       link: "https://buffer-clone-tarun-29s-projects.vercel.app/start",
+    },
+    {
+      name: "Linear Clone (WIP)",
+      description: "A clone of Linear for issue tracking app",
+      logo: "/linear.png",
+      stack: "React, Tiptap, Tailwind",
+      link: "#",
     },
   ];
 
