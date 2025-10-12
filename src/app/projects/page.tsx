@@ -7,14 +7,15 @@ const ProjectSection = () => {
     {
       name: "Leaf",
       description:
-        "A collaborative sketch pad inspired by excalidraw and collaborative cursor inspired by Miro",
+        "A collaborative sketchpad inspired by Excalidraw and Miro. To experience collaboration, open it in two browser windows or on two different devices.",
       logo: "/leaf.png",
       stack: "React, Tiptap, Yjs, Tailwind",
       link: "https://leaf-frontend.netlify.app/",
     },
     {
       name: "Notion Clone",
-      description: "A collaborative note editor inspired by notion",
+      description:
+        "A collaborative note editor inspired by Notion. To test real-time collaboration, open it in two browser windows or on two different devices.",
       logo: "/notion.svg",
       stack: "React, Tiptap, Yjs, Tailwind",
       link: "https://leaf-frontend.netlify.app/editor",
@@ -47,7 +48,9 @@ const ProjectSection = () => {
             className="flex cursor-pointer"
           >
             <Image src={exp.logo} alt={exp.name} width={80} height={80} />
-            <div className="ml-5">
+            <div
+              className={`ml-5 ${exp.name === "Notion Clone" ? "ml-11" : ""}`}
+            >
               <div className="text-xl font-medium">{exp.name}</div>
               <div>{exp.description}</div>
               <div>{exp.stack}</div>
