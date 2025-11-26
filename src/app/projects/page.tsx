@@ -9,7 +9,7 @@ const ProjectSection = () => {
       description:
         "A collaborative sketchpad inspired by Excalidraw and Miro. To experience collaboration, open it in two browser windows or on two different devices.",
       logo: "/leaf.png",
-      stack: "React, Tiptap, Yjs, Tailwind",
+      stack: "React, Canvas, Yjs, Tailwind",
       link: "https://leaf-frontend.netlify.app/",
     },
     {
