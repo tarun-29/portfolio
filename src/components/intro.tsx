@@ -11,7 +11,7 @@ const experiences = [
     link: "https://www.medallia.com/",
   },
   {
-    company: "Peoplebox",
+    company: "Peoplebox YC(S 22)",
     role: "SDE - Fullstack",
     period: "Sep 2021 - Dec 2024",
     logo: "/pplbx.png",
